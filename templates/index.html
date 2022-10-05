@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contador</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Contador</h1>
+    <div class="counting">
+        <h2>{{session['count']}}</h2>
+        <h3>Número de Visitas: {{session['visitas']}}</h3>
+        <button class="btn1"><a href="/addtwo">Agrega 2!</a></button>
+        <button class="btn2"><a href="/destroy_session">Vuelve al Inicio</a></button>
+        <form action="/addnumber" method="post">
+            <label for="Add:">Añadir:</label>
+            <input type="number" name="cantidad">
+            <input type="submit" class="btn3">
+        </form>
+    </div>
+</body>
+</html>

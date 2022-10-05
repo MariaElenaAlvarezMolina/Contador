@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 30px;
+}
+.counting {
+    padding: 5px;
+    text-align: center;
+}
+button {
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.btn1 {
+    background-color: pink;
+}
+.btn2 {
+    background-color: lightblue;
+}
+.btn3 {
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: orange;
+}
+form {
+    padding-top: 10px;
+}
